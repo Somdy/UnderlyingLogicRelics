@@ -1,0 +1,25 @@
+{
+    "RUNIC_DOME.title": "符文圆顶",
+    "RUNIC_DOME.description": "你无法再看见敌人的[gold]意图[/gold]。每回合开始时获得{Energy:energyIcons()}。",
+    "RUNIC_DOME.flavor": "上面的符文无法辨识。",
+
+    "FUSION_HAMMER.title": "融合之锤",
+    "FUSION_HAMMER.description": "你无法再在[gold]休息处[/gold]锻造[gold]升级[/gold]卡牌。每回合开始时获得{Energy:energyIcons()}。",
+    "FUSION_HAMMER.flavor": "一旦握住，就永远无法放下。",
+
+    "COFFEE_DRIPPER.title": "咖啡滤杯",
+    "COFFEE_DRIPPER.description": "你无法再在休息处[gold]休息[/gold]。每回合开始时获得{Energy:energyIcons()}。",
+    "COFFEE_DRIPPER.flavor": "“好的，请再来一杯。继续工作，继续工作！”——建筑师",
+
+    "CURSED_KEY.title": "诅咒钥匙",
+    "CURSED_KEY.description": "你每次打开一个宝箱时，获得一张特殊的[red]诅咒[/red]。每回合开始时获得{Energy:energyIcons()}。",
+    "CURSED_KEY.flavor": "你能感到这把钥匙上散发出邪恶的能量。力量总是需要付出代价的。",
+
+    "HOVERING_KITE.title": "悬浮风筝",
+    "HOVERING_KITE.description": "你在每回合第一次弃牌时，获得1{Energy:energyIcons()}。",
+    "HOVERING_KITE.flavor":"风筝在战斗中飘浮在你的身旁，不知是何种神秘的力量让它能浮在空中。",
+
+    "NUCLEAR_BATTERY.title":"核能电池",
+    "NUCLEAR_BATTERY.description": "在每场战斗开始时，[gold]生成[/gold][blue]{Plasma}[/blue]个[gold]等离子[/gold]充能球。",
+    "NUCLEAR_BATTERY.flavor": "哇噢……"
+}

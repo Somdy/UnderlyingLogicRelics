@@ -1,0 +1,4 @@
+﻿{
+    "FRIGHT.title": "惊吓",
+    "FRIGHT.description": "每当你抽到这张牌时，随机丢弃1张牌。\n在{COMBATS_TO_REMOVE:diff()}场战斗后从你的[gold]牌组[/gold]中移除。"
+}

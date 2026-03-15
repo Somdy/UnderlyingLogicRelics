@@ -1,0 +1,43 @@
+<Project Sdk="Godot.NET.Sdk/4.5.1">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework Condition=" '$(GodotTargetPlatform)' == 'android' ">net9.0</TargetFramework>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <LangVersion>13.0</LangVersion>
+    <SteamPath>E:\Programs\Steam\steamapps</SteamPath>
+    <WorkshopPath>$(SteamPath)\workshop</WorkshopPath>
+    <Sts2Path>$(SteamPath)\common\Slay the Spire 2</Sts2Path>
+    <Sts2DataPath>$(Sts2Path)\data_sts2_windows_x86_64</Sts2DataPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="sts2">
+      <HintPath>$(Sts2DataPath)\sts2.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <Reference Include="0Harmony">
+      <HintPath>$(Sts2DataPath)\0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <Reference Include="Steamworks.NET">
+      <HintPath>$(Sts2DataPath)\Steamworks.NET.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="mod_manifest.json" />
+    <Content Include="UnderlyingLogicRelics\localization\eng\cards.json" />
+    <Content Include="UnderlyingLogicRelics\localization\eng\relics.json" />
+    <Content Include="UnderlyingLogicRelics\localization\zhs\cards.json" />
+    <Content Include="UnderlyingLogicRelics\localization\zhs\relics.json" />
+  </ItemGroup>
+
+  <Target Name="Copy Mod" AfterTargets="PostBuildEvent">
+    <Message Text="Copying files to Slay the Spire 2 custom mods folder..." Importance="high" />
+    <MakeDir Directories="$(Sts2Path)\mods\" />
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(Sts2Path)\mods\$(MSBuildProjectName)\" />
+  </Target>
+</Project>

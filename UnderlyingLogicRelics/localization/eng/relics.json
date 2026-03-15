@@ -1,0 +1,25 @@
+{
+    "RUNIC_DOME.title": "Runic Dome",
+    "RUNIC_DOME.description": "Gain {Energy:energyIcons()} at the start of your turn. You can no longer see enemy [gold]intents[/gold].",
+    "RUNIC_DOME.flavor": "The runes are indecipherable.",
+
+    "FUSION_HAMMER.title": "Fusion Hammer",
+    "FUSION_HAMMER.description": "Gain {Energy:energyIcons()} at the start of your turn. You can no longer [gold]Smith[/gold] at Rest Sites.",
+    "FUSION_HAMMER.flavor": "Once wielded, the owner can never let go.",
+
+    "COFFEE_DRIPPER.title": "Coffee Dripper",
+    "COFFEE_DRIPPER.description": "Gain {Energy:energyIcons()} at the start of your turn. You can no longer [gold]Rest[/gold] at Rest Sites.",
+    "COFFEE_DRIPPER.flavor": "\"Yes, another cup please. Back to work. Back to work!\" - The Architect",
+
+    "CURSED_KEY.title": "Cursed Key",
+    "CURSED_KEY.description": "Gain {Energy:energyIcons()} at the start of your turn. Everytime you open a chest, obtain a unique [red]Curse[/red].",
+    "CURSED_KEY.flavor": "You can feel the malicious energy emanating from the key. Power comes at a price.",
+
+    "HOVERING_KITE.title": "Hovering Kite",
+    "HOVERING_KITE.description": "The first time you discard a card each turn, gain {Energy:energyIcons()}.",
+    "HOVERING_KITE.flavor":"The Kite floats around you in battle, propelled by a mysterious force.",
+
+    "NUCLEAR_BATTERY.title":"核能电池",
+    "NUCLEAR_BATTERY.description": "At the start of each combat, [gold]Channel[/gold] [blue]{Plasma}[/blue] [gold]Plasma[/gold].",
+    "NUCLEAR_BATTERY.flavor": "Ooooh..."
+}

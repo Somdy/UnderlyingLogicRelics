@@ -1,0 +1,4 @@
+﻿{
+    "FRIGHT.title": "Fright",
+    "FRIGHT.description": "Whenever you draw this card, discard 1 random card.\nRemoved from your [gold]Deck[/gold] after {COMBATS_TO_REMOVE:diff()} {COMBATS_TO_REMOVE::plural:combat|combats}."
+}
