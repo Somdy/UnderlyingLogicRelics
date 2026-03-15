@@ -1,7 +1,7 @@
 # 老遗物 Old Relics
-添加了来自杀戮尖塔1的一些遗物到二代游戏中。Mod 开发仍处于早期阶段。
+添加了来自杀戮尖塔1的一些遗物到二代游戏中。Mod 开发仍处于早期阶段。目前可以在先古之民达弗处概率获得这些遗物。
 
-An early stage STS2 mod that adds some relics from STS1.
+An early stage STS2 mod that adds some relics from STS1. You may obtain these relics from Darv if lucky.
 
 # 安装 Installation
 前往[发布页面](https://github.com/Somdy/UnderlyingLogicRelics/releases/tag/Initial-Release)下载最新的 .zip 文件，到杀戮尖塔2游戏根目录下新建文件夹 mods 并将刚才下载的 .zip 文件解压到 mods 文件夹下。
