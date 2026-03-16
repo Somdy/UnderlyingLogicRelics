@@ -35,6 +35,11 @@
     <Content Include="UnderlyingLogicRelics\localization\zhs\relics.json" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Frameworks\Nodes\Screens\" />
+    <Folder Include="Frameworks\Patches\Node\Screens\" />
+  </ItemGroup>
+
   <Target Name="Copy Mod" AfterTargets="PostBuildEvent">
     <Message Text="Copying files to Slay the Spire 2 custom mods folder..." Importance="high" />
     <MakeDir Directories="$(Sts2Path)\mods\" />

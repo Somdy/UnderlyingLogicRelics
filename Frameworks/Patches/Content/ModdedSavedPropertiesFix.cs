@@ -7,6 +7,7 @@ using HarmonyLib;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Saves.Runs;
 using UnderlyingLogicRelics.Frameworks.Utils;
+// ReSharper disable InconsistentNaming
 
 namespace UnderlyingLogicRelics.Frameworks.Patches.Content
 {

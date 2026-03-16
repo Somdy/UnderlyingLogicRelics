@@ -12,8 +12,8 @@ using UnderlyingLogicRelics.Frameworks.Utils;
 
 namespace UnderlyingLogicRelics.Frameworks.Models.Relics
 {
-    [OldRelicsAutoAdd(typeof(SharedRelicPool))]
-    [OldRelicsAncientPool(AncientPoolType.DARV)]
+    [OldRelicAutoAdd(typeof(SharedRelicPool))]
+    [OldRelicAncientPool(AncientPoolType.DARV)]
     public class FusionHammer : OldRelicModelBase
     {
         public override RelicRarity Rarity => RelicRarity.Ancient;

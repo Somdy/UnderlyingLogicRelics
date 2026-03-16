@@ -16,8 +16,8 @@ using UnderlyingLogicRelics.Frameworks.Models.Cards;
 
 namespace UnderlyingLogicRelics.Frameworks.Models.Relics
 {
-    [OldRelicsAutoAdd(typeof(SharedRelicPool))]
-    [OldRelicsAncientPool(AncientPoolType.DARV)]
+    [OldRelicAutoAdd(typeof(SharedRelicPool))]
+    [OldRelicAncientPool(AncientPoolType.DARV)]
     public class CursedKey : OldRelicModelBase
     {
         public override RelicRarity Rarity => RelicRarity.Ancient;

@@ -15,8 +15,8 @@ using UnderlyingLogicRelics.Frameworks.Models.Bases;
 
 namespace UnderlyingLogicRelics.Frameworks.Models.Relics
 {
-    [OldRelicsAutoAdd(typeof(DefectRelicPool))]
-    [OldRelicsAncientPool(AncientPoolType.DARV)]
+    [OldRelicAutoAdd(typeof(DefectRelicPool))]
+    [OldRelicAncientPool(AncientPoolType.DARV)]
     public class NuclearBattery : OldRelicModelBase
     {
         private const string PLASMA = "Plasma";

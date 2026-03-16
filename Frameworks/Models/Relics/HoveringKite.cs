@@ -14,8 +14,8 @@ using UnderlyingLogicRelics.Frameworks.Models.Bases;
 
 namespace UnderlyingLogicRelics.Frameworks.Models.Relics
 {
-    [OldRelicsAutoAdd(typeof(SilentRelicPool))]
-    [OldRelicsAncientPool(AncientPoolType.DARV)]
+    [OldRelicAutoAdd(typeof(SilentRelicPool))]
+    [OldRelicAncientPool(AncientPoolType.DARV)]
     public class HoveringKite : OldRelicModelBase
     {
         public override RelicRarity Rarity => RelicRarity.Ancient;

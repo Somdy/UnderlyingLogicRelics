@@ -3,7 +3,7 @@
 namespace UnderlyingLogicRelics.Frameworks.Core.Attributes
 {
     [AttributeUsage(AttributeTargets.Class)]
-    public class OldRelicsAutoAddAttribute(Type poolType) : Attribute
+    public class OldRelicAutoAddAttribute(Type poolType) : Attribute
     {
         public Type PoolType
         {

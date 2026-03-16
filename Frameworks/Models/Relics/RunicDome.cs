@@ -9,8 +9,8 @@ using UnderlyingLogicRelics.Frameworks.Models.Bases;
 
 namespace UnderlyingLogicRelics.Frameworks.Models.Relics
 {
-    [OldRelicsAutoAdd(typeof(SharedRelicPool))]
-    [OldRelicsAncientPool(AncientPoolType.DARV)]
+    [OldRelicAutoAdd(typeof(SharedRelicPool))]
+    [OldRelicAncientPool(AncientPoolType.DARV)]
     public class RunicDome : OldRelicModelBase
     {
         public override RelicRarity Rarity => RelicRarity.Ancient;

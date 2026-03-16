@@ -19,7 +19,43 @@
     "HOVERING_KITE.description": "The first time you discard a card each turn, gain {Energy:energyIcons()}.",
     "HOVERING_KITE.flavor":"The Kite floats around you in battle, propelled by a mysterious force.",
 
-    "NUCLEAR_BATTERY.title":"核能电池",
+    "NUCLEAR_BATTERY.title":"Nuclear Battery",
     "NUCLEAR_BATTERY.description": "At the start of each combat, [gold]Channel[/gold] [blue]{Plasma}[/blue] [gold]Plasma[/gold].",
-    "NUCLEAR_BATTERY.flavor": "Ooooh..."
+    "NUCLEAR_BATTERY.flavor": "Ooooh...",
+    
+    "TOY_ORNITHOPTER.title":"Toy Ornithopter",
+    "TOY_ORNITHOPTER.description": "Whenever you use a [gold]potion[/gold], heal [blue]{HEAL_AMT:diff()}[/blue] HP.",
+    "TOY_ORNITHOPTER.flavor": "\"This little toy is the perfect companion for the lone adventurer!\"",
+    
+    "PRESERVED_INSECT.title":"Preserved Insect",
+    "PRESERVED_INSECT.description": "Enemies in Elite combats have [blue]{HP_REDUCTION:diff()}%[/blue] less HP.",
+    "PRESERVED_INSECT.flavor": "The insect seems to create a shrinking aura that targets particularly large enemies.",
+    
+    "QUESTION_CARD.title":"Question Card",
+    "QUESTION_CARD.description": "Future card rewards have [blue]{EXTRA_CARDS:diff()}[/blue] additional {EXTRA_CARDS::plural:card|cards} to choose from.",
+    "QUESTION_CARD.flavor": "Those with more choices minimize the downside to chaos.- Kublai the Great",
+    
+    "FOSSILIZED_HELIX.title":"Fossilized Helix",
+    "FOSSILIZED_HELIX.description": "Prevent the first time you would lose HP each combat.",
+    "FOSSILIZED_HELIX.flavor": "Seemingly indestructible, you wonder what kind of creature this belonged to.",
+    
+    "CLOCKWORK_SOUVENIR.title":"Clockwork Souvenir",
+    "CLOCKWORK_SOUVENIR.description": "Start each combat with [blue]{ARTIFACT_AMT:diff()}[/blue] [gold]Artifact[/gold].",
+    "CLOCKWORK_SOUVENIR.flavor": "So many intricate gears.",
+    
+    "INCENSE_BURNER.title":"Incense Burner",
+    "INCENSE_BURNER.description": " Every [blue]{COOLDOWN:diff()}[/blue] turns, gain [blue]{POWER_AMT:diff()}[/blue] [gold]Intangible[/gold].",
+    "INCENSE_BURNER.flavor": "The smoke imbues its owner with the spirit of the burned.",
+    
+    "ORANGE_PELLETS.title":"Orange Pellets",
+    "ORANGE_PELLETS.description": "Whenever you play a [gold]Power[/gold], [gold]Attack[/gold], and Skill in the same turn, remove all of your debuffs.",
+    "ORANGE_PELLETS.flavor": "Made from various fungi found throughout the Spire, they will stave off any affliction.",
+    
+    "DEAD_BRANCH.title":"Dead Branch",
+    "DEAD_BRANCH.description": "Whenever you [gold]Exhaust[/gold] a card, add a random card to your hand.",
+    "DEAD_BRANCH.flavor": "The branch of a tree from a forgotten era.",
+    
+    "BUSTED_CROWN.title":"Busted Crown",
+    "BUSTED_CROWN.description": "Gain {Energy:energyIcons()} at the start of your turn. Future card rewards have [blue]{REDUCTION:diff()}[/blue] less cards to choose from. ",
+    "BUSTED_CROWN.flavor": "The Champ's crown... or a pale imitation?"
 }

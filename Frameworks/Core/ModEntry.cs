@@ -2,13 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using Godot;
 using HarmonyLib;
-using MegaCrit.Sts2.Core.Logging;
 using MegaCrit.Sts2.Core.Modding;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.RelicPools;
-using MegaCrit.Sts2.Core.Multiplayer.Serialization;
 using UnderlyingLogicRelics.Frameworks.Core.Attributes;
 using UnderlyingLogicRelics.Frameworks.Models.Relics;
 using UnderlyingLogicRelics.Frameworks.Utils;
@@ -41,7 +38,7 @@ namespace UnderlyingLogicRelics.Frameworks.Core
             {
                 Type poolType = null;
                 TypeInfo info = t.GetTypeInfo();
-                if (info.GetCustomAttribute<OldRelicsAutoAddAttribute>(false) is { } poolAttr)
+                if (info.GetCustomAttribute<OldRelicAutoAddAttribute>(false) is { } poolAttr)
                 {
                     poolType = poolAttr.PoolType;
                 }

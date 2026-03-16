@@ -11,6 +11,7 @@ using MegaCrit.Sts2.Core.Models.Events;
 using MegaCrit.Sts2.Core.Models.Relics;
 using UnderlyingLogicRelics.Frameworks.Core.Attributes;
 using UnderlyingLogicRelics.Frameworks.Utils;
+// ReSharper disable InconsistentNaming
 
 namespace UnderlyingLogicRelics.Frameworks.Patches.Content.Ancients
 {
@@ -18,6 +19,21 @@ namespace UnderlyingLogicRelics.Frameworks.Patches.Content.Ancients
     {
         
         protected internal static readonly List<ValidRelic> RelicsToDarv = [];
+        
+        [HarmonyPatch(typeof(Darv), MethodType.Getter)]
+        [HarmonyPatch(nameof(Darv.AllPossibleOptions))]
+        public static class DarvAllPossibleOptionsPatch
+        {
+            static void Postfix(Darv __instance, ref IEnumerable<EventOption> __result)
+            {
+                MethodInfo relicOptCreator = AccessTools.Method(typeof(AncientEventModel), "RelicOption", 
+                    [ typeof(RelicModel), typeof(string), typeof(string) ]);
+                var extra = RelicsToDarv.Select(vr => (EventOption) relicOptCreator.Invoke(__instance, 
+                                                          [ vr.relic.ToMutable(), "INITIAL", null ]))
+                                                      .ToList();
+                __result = __result.Union(extra);
+            }
+        }
         
         [HarmonyPatch(typeof(Darv), "GenerateInitialOptions")]
         public static class AddSharedOldRelicsToDarvPool
@@ -28,11 +44,9 @@ namespace UnderlyingLogicRelics.Frameworks.Patches.Content.Ancients
                 {
                     return;
                 }
-                
                 bool dustyTome = __result.Any(o => o.Relic is DustyTome);
                 __result = __result.Where(o => o.Relic is not DustyTome).ToList();
-                MethodInfo relicOptCreator = typeof(AncientEventModel).GetMethod("RelicOption", 
-                    BindingFlags.NonPublic | BindingFlags.Instance,
+                MethodInfo relicOptCreator = AccessTools.Method(typeof(AncientEventModel), "RelicOption", 
                     [ typeof(RelicModel), typeof(string), typeof(string) ]);
                 List<EventOption> candidates = RelicsToDarv.Where(vr => vr.match(AncientPoolType.DARV, __instance.Owner))
                                                            .Select(vr => (EventOption) relicOptCreator?.Invoke(__instance, 
@@ -44,7 +58,7 @@ namespace UnderlyingLogicRelics.Frameworks.Patches.Content.Ancients
                 {
                     return;
                 }
-                candidates.ForEach(o => ORLog.Info($"Possible relic: {o.Relic}"));
+                
                 if (dustyTome)
                 {
                     __result = candidates.Take(2).ToList();

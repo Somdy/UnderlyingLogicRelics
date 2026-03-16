@@ -18,14 +18,14 @@ using UnderlyingLogicRelics.Frameworks.Models.Bases;
 
 namespace UnderlyingLogicRelics.Frameworks.Models.Cards
 {
-    [OldRelicsAutoAdd(typeof(CurseCardPool))]
+    [OldRelicAutoAdd(typeof(CurseCardPool))]
     public class Fright() : OldRelicCardModelBase(ENERGY_COST, TYPE, RARITY, TARGET)
     {
         public const int ENERGY_COST = -1;
         public const CardType TYPE = CardType.Curse;
         public const CardRarity RARITY = CardRarity.Curse;
         public const TargetType TARGET = TargetType.None;
-        public const decimal COMBATS_TO_REMOVE = 3;
+        public const decimal COMBATS_TO_REMOVE = 2;
 
         public override int MaxUpgradeLevel => 0;
         public override bool CanBeGeneratedByModifiers => false;

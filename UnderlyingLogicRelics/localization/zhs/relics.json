@@ -1,25 +1,61 @@
 {
     "RUNIC_DOME.title": "符文圆顶",
-    "RUNIC_DOME.description": "你无法再看见敌人的[gold]意图[/gold]。每回合开始时获得{Energy:energyIcons()}。",
+    "RUNIC_DOME.description": "在每回合开始时获得{Energy:energyIcons()}。你无法再看见敌人的[gold]意图[/gold]。",
     "RUNIC_DOME.flavor": "上面的符文无法辨识。",
 
     "FUSION_HAMMER.title": "融合之锤",
-    "FUSION_HAMMER.description": "你无法再在[gold]休息处[/gold]锻造[gold]升级[/gold]卡牌。每回合开始时获得{Energy:energyIcons()}。",
+    "FUSION_HAMMER.description": "在每回合开始时获得{Energy:energyIcons()}。你无法再在[gold]休息处[/gold]锻造[gold]升级[/gold]卡牌。",
     "FUSION_HAMMER.flavor": "一旦握住，就永远无法放下。",
 
     "COFFEE_DRIPPER.title": "咖啡滤杯",
-    "COFFEE_DRIPPER.description": "你无法再在休息处[gold]休息[/gold]。每回合开始时获得{Energy:energyIcons()}。",
+    "COFFEE_DRIPPER.description": "在每回合开始时获得{Energy:energyIcons()}。你无法再在休息处[gold]休息[/gold]。",
     "COFFEE_DRIPPER.flavor": "“好的，请再来一杯。继续工作，继续工作！”——建筑师",
 
     "CURSED_KEY.title": "诅咒钥匙",
-    "CURSED_KEY.description": "你每次打开一个宝箱时，获得一张特殊的[red]诅咒[/red]。每回合开始时获得{Energy:energyIcons()}。",
+    "CURSED_KEY.description": "在每回合开始时获得{Energy:energyIcons()}。你每次打开一个宝箱时，获得一张特殊的[red]诅咒[/red]。",
     "CURSED_KEY.flavor": "你能感到这把钥匙上散发出邪恶的能量。力量总是需要付出代价的。",
 
     "HOVERING_KITE.title": "悬浮风筝",
-    "HOVERING_KITE.description": "你在每回合第一次弃牌时，获得1{Energy:energyIcons()}。",
+    "HOVERING_KITE.description": "你在每回合第一次弃牌时，获得{Energy:energyIcons()}。",
     "HOVERING_KITE.flavor":"风筝在战斗中飘浮在你的身旁，不知是何种神秘的力量让它能浮在空中。",
 
     "NUCLEAR_BATTERY.title":"核能电池",
     "NUCLEAR_BATTERY.description": "在每场战斗开始时，[gold]生成[/gold][blue]{Plasma}[/blue]个[gold]等离子[/gold]充能球。",
-    "NUCLEAR_BATTERY.flavor": "哇噢……"
+    "NUCLEAR_BATTERY.flavor": "哇噢……",
+    
+    "TOY_ORNITHOPTER.title":"玩具扑翼飞机",
+    "TOY_ORNITHOPTER.description": "你每使用一瓶[gold]药水[/gold]，回复[green]{HEAL_AMT:diff()}[/green]点生命。",
+    "TOY_ORNITHOPTER.flavor": "这个小玩具最适合陪伴孤独一人的冒险者啦！",
+    
+    "PRESERVED_INSECT.title":"昆虫标本",
+    "PRESERVED_INSECT.description": "精英战中的敌人生命减少[blue]{HP_REDUCTION:diff()}%[/blue]。",
+    "PRESERVED_INSECT.flavor": "这只昆虫似乎会对尤其巨大的敌人们散发出虚弱的光环。",
+    
+    "QUESTION_CARD.title":"问号牌",
+    "QUESTION_CARD.description": "在将来的卡牌奖励中，可供选择的牌数增加[blue]{EXTRA_CARDS:diff()}[/blue]张。",
+    "QUESTION_CARD.flavor": "“选择多，则不受其乱。”——忽必烈大帝",
+    
+    "FOSSILIZED_HELIX.title":"螺类化石",
+    "FOSSILIZED_HELIX.description": "阻止你在每场战斗中第一次受到的生命值损伤。",
+    "FOSSILIZED_HELIX.flavor": "似乎坚不可摧，你很好奇究竟是何种生物曾拥有这样的部分。",
+    
+    "CLOCKWORK_SOUVENIR.title":"齿轮工艺品",
+    "CLOCKWORK_SOUVENIR.description": "每场战斗开始时，获得[blue]{ARTIFACT_AMT:diff()}[/blue]层[gold]人工制品[/gold]。",
+    "CLOCKWORK_SOUVENIR.flavor": "“你看里面齿轮这么多，是不是很精巧。”",
+    
+    "INCENSE_BURNER.title":"香炉",
+    "INCENSE_BURNER.description": "每[blue]{COOLDOWN:diff()}[/blue]回合，获得[blue]{POWER_AMT:diff()}[/blue]层[gold]无实体[/gold]。",
+    "INCENSE_BURNER.flavor": "香炉中的烟让拥有者获得被焚烧者的灵力。",
+    
+    "ORANGE_PELLETS.title":"橙色药丸",
+    "ORANGE_PELLETS.description": "你每在同一回合内打出[gold]能力牌[/gold]、[gold]攻击牌[/gold]和[gold]技能牌[/gold]各一张，移除你身上的所有负面效果。",
+    "ORANGE_PELLETS.flavor": "“用塔里各处真菌做出来的药，包治百病！”",
+    
+    "DEAD_BRANCH.title":"枯木树枝",
+    "DEAD_BRANCH.description": "每当你[gold]消耗[/gold]一张牌，将一张随机卡牌到添加你的手牌。",
+    "DEAD_BRANCH.flavor": "一个早已被遗忘的时代所遗留下来的树木枝条。",
+    
+    "BUSTED_CROWN.title":"破碎金冠",
+    "BUSTED_CROWN.description": "在每回合开始时获得{Energy:energyIcons()}。在将来的卡牌奖励中，可供选择的牌数减少[blue]{REDUCTION:diff()}[/blue]张。",
+    "BUSTED_CROWN.flavor": "第一勇士的金冠……或者只是一个拙劣的仿制品？"
 }

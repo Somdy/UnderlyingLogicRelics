@@ -14,6 +14,7 @@ using MegaCrit.Sts2.Core.Nodes.Combat;
 using UnderlyingLogicRelics.Frameworks.Models.Relics;
 using UnderlyingLogicRelics.Frameworks.Utils;
 using Label = System.Reflection.Emit.Label;
+// ReSharper disable InconsistentNaming
 
 namespace UnderlyingLogicRelics.Frameworks.Patches.Node
 {
@@ -79,7 +80,8 @@ namespace UnderlyingLogicRelics.Frameworks.Patches.Node
             {
                 Player whoAmI = LocalContext.GetMe(____owner.CombatState);
                 bool wasDomed = whoAmI != null && whoAmI.Relics.Any(r => r is RunicDome);
-                return wasDomed;
+                bool skip = !wasDomed;
+                return skip;
             }
         }
 
