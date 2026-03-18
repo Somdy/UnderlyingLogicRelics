@@ -48,7 +48,7 @@
     "INCENSE_BURNER.flavor": "The smoke imbues its owner with the spirit of the burned.",
     
     "ORANGE_PELLETS.title":"Orange Pellets",
-    "ORANGE_PELLETS.description": "Whenever you play a [gold]Power[/gold], [gold]Attack[/gold], and Skill in the same turn, remove all of your debuffs.",
+    "ORANGE_PELLETS.description": "Whenever you play a [gold]Power[/gold], [gold]Attack[/gold], and [gold]Skill[/gold] in the same turn, remove all of your debuffs.",
     "ORANGE_PELLETS.flavor": "Made from various fungi found throughout the Spire, they will stave off any affliction.",
     
     "DEAD_BRANCH.title":"Dead Branch",

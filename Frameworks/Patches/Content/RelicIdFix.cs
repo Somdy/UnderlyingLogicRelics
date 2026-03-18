@@ -9,6 +9,7 @@ using MegaCrit.Sts2.Core.Models.RelicPools;
 using MegaCrit.Sts2.Core.Multiplayer.Serialization;
 using UnderlyingLogicRelics.Frameworks.Core;
 using UnderlyingLogicRelics.Frameworks.Core.Attributes;
+using UnderlyingLogicRelics.Frameworks.Models.Bases;
 using UnderlyingLogicRelics.Frameworks.Patches.Content.Ancients;
 using UnderlyingLogicRelics.Frameworks.Utils;
 // ReSharper disable InconsistentNaming
@@ -39,7 +40,7 @@ namespace UnderlyingLogicRelics.Frameworks.Patches.Content
             
             private static void assignNetId(Type type)
             {
-                if (!type.IsAssignableTo(typeof(AbstractModel)))
+                if (!type.IsAssignableTo(typeof(OldRelicModelBase)))
                 {
                     return;
                 }

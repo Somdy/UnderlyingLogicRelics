@@ -1,0 +1,11 @@
+{
+    "id": "UnderlyingLogicRelics",
+    "name": "Old Relics",
+    "author": "charone",
+    "description": "An early stage STS2 mod that adds some relics from STS1.",
+    "version": "v0.0.3",
+    "has_pck": true,
+    "has_dll": true,
+    "dependencies": [],
+    "affects_gameplay": true
+}

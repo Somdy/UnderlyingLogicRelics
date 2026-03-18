@@ -29,6 +29,7 @@
 
   <ItemGroup>
     <Content Include="mod_manifest.json" />
+    <Content Include="UnderlyingLogicRelics.json" />
     <Content Include="UnderlyingLogicRelics\localization\eng\cards.json" />
     <Content Include="UnderlyingLogicRelics\localization\eng\relics.json" />
     <Content Include="UnderlyingLogicRelics\localization\zhs\cards.json" />
@@ -44,5 +45,7 @@
     <Message Text="Copying files to Slay the Spire 2 custom mods folder..." Importance="high" />
     <MakeDir Directories="$(Sts2Path)\mods\" />
     <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(Sts2Path)\mods\$(MSBuildProjectName)\" />
+    <Copy SourceFiles="$(MSBuildProjectName).json" DestinationFolder="$(Sts2Path)\mods\$(MSBuildProjectName)\" />
+    <Copy SourceFiles="$(MSBuildProjectName).pck" DestinationFolder="$(Sts2Path)\mods\$(MSBuildProjectName)\"/>
   </Target>
 </Project>
