@@ -4,9 +4,9 @@
 An early stage STS2 mod that adds some relics from STS1. You may obtain these relics from Darv if lucky.
 
 # 安装 Installation
-前往[发布页面](https://github.com/Somdy/UnderlyingLogicRelics/releases/tag/Initial-Release)下载最新的 .zip 文件，到杀戮尖塔2游戏根目录下新建文件夹 mods 并将刚才下载的 .zip 文件解压到 mods 文件夹下。
+前往[发布页面](https://github.com/Somdy/UnderlyingLogicRelics/releases)下载最新的 .zip 文件，到杀戮尖塔2游戏根目录下新建文件夹 mods 并将刚才下载的 .zip 文件解压到 mods 文件夹下。
 
-Go to the [release page](https://github.com/Somdy/UnderlyingLogicRelics/releases/tag/Initial-Release) to download the latest .zip file, create a new folder called 'mods' in the root directory of the Slay the Spire 2, and extract the downloaded .zip file into the 'mods' folder.
+Go to the [release page](https://github.com/Somdy/UnderlyingLogicRelics/releases) to download the latest .zip file, create a new folder called 'mods' in the root directory of the Slay the Spire 2, and extract the downloaded .zip file into the 'mods' folder.
 
 # 免责声明 Disclaimer
 由于本人代码水平极其低下，且杀戮尖塔2仍处于 EA 的早期阶段，游戏代码可能会经常变动，故本 Mod 在游玩的过程中可能会出现一些意料之外的 Bug，包括但不限于游戏没法继续进行、黑屏、闪退、死循环导致用户电脑爆炸等，请大家在游玩本 Mod 时小心谨慎。
