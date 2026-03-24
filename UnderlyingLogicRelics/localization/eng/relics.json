@@ -57,5 +57,9 @@
     
     "BUSTED_CROWN.title":"Busted Crown",
     "BUSTED_CROWN.description": "Gain {Energy:energyIcons()} at the start of your turn. Future card rewards have [blue]{REDUCTION:diff()}[/blue] less cards to choose from. ",
-    "BUSTED_CROWN.flavor": "The Champ's crown... or a pale imitation?"
+    "BUSTED_CROWN.flavor": "The Champ's crown... or a pale imitation?",
+
+    "SUNDIAL.title":"Sundial",
+    "SUNDIAL.description": "Every [blue]{SHUFFLES:diff()}[/blue] times you shuffle your draw pile, gain {Energy:energyIcons()}.",
+    "SUNDIAL.flavor": "\"Early man's foolish obsession with time caused them to look to the sky for guidance, hoping for something permanent.\" - Zoroth"
 }

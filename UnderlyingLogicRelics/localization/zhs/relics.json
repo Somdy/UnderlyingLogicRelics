@@ -57,5 +57,9 @@
     
     "BUSTED_CROWN.title":"破碎金冠",
     "BUSTED_CROWN.description": "在每回合开始时获得{Energy:energyIcons()}。在将来的卡牌奖励中，可供选择的牌数减少[blue]{REDUCTION:diff()}[/blue]张。",
-    "BUSTED_CROWN.flavor": "第一勇士的金冠……或者只是一个拙劣的仿制品？"
+    "BUSTED_CROWN.flavor": "第一勇士的金冠……或者只是一个拙劣的仿制品？",
+
+    "SUNDIAL.title":"日晷",
+    "SUNDIAL.description": "你每洗牌[blue]{SHUFFLES:diff()}[/blue]次，获得{Energy:energyIcons()}。",
+    "SUNDIAL.flavor": "“古代人类愚昧地执着于时间，他们抬头望向天空，希望能得到永恒的引导。”——佐罗斯"
 }
